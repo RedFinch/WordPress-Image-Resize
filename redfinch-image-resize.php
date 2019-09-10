@@ -23,7 +23,7 @@ require __DIR__ . '/lib/RedfinchImageResizer.php';
  * @return string
  * @throws \Exception
  */
-function redfinchresize_image(int $attachment_id, int $width, int $height): ?string
+function redfinch_resize_image(int $attachment_id, int $width, int $height): ?string
 {
     try {
 

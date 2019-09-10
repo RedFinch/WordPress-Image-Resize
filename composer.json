@@ -1,0 +1,25 @@
+{
+    "name": "redfinch/redfinch-image-resize",
+    "description": "Provides simple helper functions for resizing images uploaded to WordPress",
+    "homepage": "https://github.com/RedFinch/WordPress-Image-Resize",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Wigger",
+            "email": "james@redfinch.dev",
+            "homepage": "https://redfinch.dev/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/RedFinch/WordPress-Image-Resize/issues",
+        "source": "https://github.com/RedFinch/WordPress-Image-Resize"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
